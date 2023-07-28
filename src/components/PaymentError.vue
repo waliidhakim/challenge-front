@@ -1,5 +1,5 @@
 <template>
-  <div class="payment">
+  <div class="payment-error">
     <svg width="300px" height="300px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.992 511.992" xml:space="preserve">
       <g>
@@ -100,7 +100,7 @@ export default {
 h1 {
   color: red;
 }
-.payment a {
+.payment-error a {
   color: #fff;
   text-decoration: none;
   background-color: #4CAF50;
@@ -110,7 +110,7 @@ h1 {
   font-weight: bold;
   transition: all 0.3s ease;
 }
-.payment a:hover {
+.payment-error a:hover {
   background-color: #43A047;
   transition: all 0.3s ease;
 }
