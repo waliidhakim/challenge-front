@@ -38,7 +38,7 @@ export default {
     async signup() {
       this.isLoading = true;
       try {
-        const response = await axios.post(`${process.env.VUE_APP_API_URL}api/v1/users/signup`, this.user);
+        const response = await axios.post(`${process.env.VUE_APP_API_URL}/api/v1/users/signup`, this.user);
 
         // La requête a réussi, rediriger l'utilisateur vers la page d'accueil
         if (response.status === 201) {
